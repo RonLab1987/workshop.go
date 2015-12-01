@@ -19,6 +19,7 @@ function showOrderFormById(json){
     $('#clName').val(json['cl_name']);
     $('#clPhone').val(json['cl_phone1']);
     $('#clientNameSpan').html(json['cl_name']);
+    $('#clPhoneSpan').html(json['cl_phone1']);
     
     $('#ordStartDay').val(json['ord_start_job']);
     $('#ordFinishDay').val(json['ord_finish_job']);
